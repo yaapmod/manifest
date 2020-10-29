@@ -11,6 +11,10 @@
            fetch="https://github.com/yaap"
            revision="refs/heads/eleven" />
 
+  <remote  name="tresk"
+           fetch="https://github.com/yaapmod"
+           revision="refs/heads/eleven" />
+
   <!-- General -->
   <project path="art" name="art" remote="yaap" />
   <project path="bionic" name="bionic" remote="yaap" />
@@ -51,7 +55,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="yaap" />
-  <project path="frameworks/base" name="frameworks_base" remote="yaap" />
+  <project path="frameworks/base" name="frameworks_base" remote="tresk" />
   <project path="frameworks/native" name="frameworks_native" remote="yaap" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="yaap" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="yaap" />
@@ -108,7 +112,7 @@
   <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="yaap" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="yaap" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tresk" />
   <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="yaap" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="yaap" />
@@ -144,14 +148,14 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="yaap" />
-  <project path="vendor/google/gms" name="yaosp/vendor_google_gms" remote="gitlab" revision="eleven" />
-  <project path="vendor/google/pixel" name="yaosp/vendor_google_pixel" remote="gitlab" revision="eleven" />
+  <project path="vendor/google/gms" name="mTresk/vendor_google_gms" remote="gitlab" revision="eleven" />
+  <project path="vendor/google/pixel" name="mTresk/vendor_google_pixel" remote="gitlab" revision="eleven" />
   <project path="vendor/prebuilts" name="vendor_prebuilts" remote="yaap" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="yaap" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="yaap" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="yaap" />
   <project path="vendor/themes" name="vendor_themes" remote="yaap" />
-  <project path="vendor/yaap" name="vendor_yaap" remote="yaap" />
+  <project path="vendor/yaap" name="vendor_yaap" remote="tresk" />
 
 
 </manifest>
